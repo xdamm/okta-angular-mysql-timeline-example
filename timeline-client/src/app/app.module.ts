@@ -15,8 +15,8 @@ import { TimelineComponent } from './timeline/timeline.component';
 import { OKTA_CONFIG, OktaAuthModule } from '@okta/okta-angular';
 
 const oktaConfig = {
-  issuer: 'https://{yourOktaDomain}/oauth2/default',
-  clientId: '{yourClientId}',
+  issuer: 'https://dev-06920791.okta.com/oauth2/default',
+  clientId: '0oa6krmyu8yrhlvfh5d7',
   redirectUri: window.location.origin + '/callback'
 }
 

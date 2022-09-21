@@ -8,8 +8,8 @@ const oktaAuth = require('./auth');
 
 const connection = mysql.createConnection({
   host     : 'localhost',
-  user     : 'timeline',
-  password : 'password',
+  user     : 'arjamex',
+  password : 'vibora53',
   database : 'timeline'
 });
 
